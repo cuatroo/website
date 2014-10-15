@@ -876,7 +876,7 @@ header#header .mobileMenu ul li a {
 #main .workFlow {
 	position: relative;
 	margin: 50px 0 0 0;
-	padding: 96px 0 60px 0;
+	padding: 20px 0 60px 0;
 	background: #e7ebf0;
 }
 #main .workFlow::before {
@@ -909,11 +909,15 @@ header#header .mobileMenu ul li a {
 #main .workFlow ul li:last-child { margin: 0 }
 #main .workFlow ul li .iconContainer {
 	position: relative;
-    width: 126px;
-    height: 73px;
+    width: 150px;
+    height: 150px;
     margin: auto;
     background: white;
     opacity: 0;
+    border-radius: 200px;
+    -moz-border-radius:200;
+    -webkit-border-radius:200px;
+   
 }
 #main .workFlow ul li.animate .iconContainer {
 	animation: workFlow-icon .3s ease-in .6s forwards;
@@ -922,14 +926,18 @@ header#header .mobileMenu ul li a {
 	-o-animation: workFlow-icon .3s ease-in .6s forwards;
 	-ms-animation: workFlow-icon .3s ease-in .6s forwards;
 }
+/*
 #main .workFlow ul li .iconContainer:before {
-    content: " ";
+    /*content: " ";
     width: 0; height: 0;
     border-bottom: 36px solid white;
     border-left: 63px solid transparent;
     border-right: 63px solid transparent;
     position: absolute;
     top: -36px;
+    border-radius: 10;
+    -moz-border-radius:10;
+    -webkit-border-radius:10;
 }
 #main .workFlow ul li .iconContainer:after {
     content: "";
@@ -939,6 +947,8 @@ header#header .mobileMenu ul li a {
     border-top: 36px solid white;
     border-left: 63px solid transparent;
     border-right: 63px solid transparent;
+    
+    
 }
 #main .workFlow ul li .iconContainer .shadowEffect {
 	position: absolute;
@@ -948,7 +958,7 @@ header#header .mobileMenu ul li a {
 	width: 166px;
 	height: 166px;
 	background: url(../img/item_shadow.png);
-}
+}*/
 #main .workFlow ul li .iconContainer .icon {
 	position: relative;
 	display: block;
@@ -956,6 +966,7 @@ header#header .mobileMenu ul li a {
 	height: 76px;
 	background: url(../img/workflow_icons.png) no-repeat;
 	margin: 0 auto;
+	top:30px;
 }
 #main .workFlow ul li.collaborate .iconContainer .icon { background-position: 0 0 }
 #main .workFlow ul li.strategize .iconContainer .icon { background-position: 0 -76px }
