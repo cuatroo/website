@@ -917,6 +917,13 @@ header#header .mobileMenu ul li a {
     border-radius: 200px;
     -moz-border-radius:200;
     -webkit-border-radius:200px;
+    box-shadow: 5px 5px 5px #E6E6E6;
+    
+    
+    
+    
+    
+    
    
 }
 #main .workFlow ul li.animate .iconContainer {
@@ -928,7 +935,7 @@ header#header .mobileMenu ul li a {
 }
 /*
 #main .workFlow ul li .iconContainer:before {
-    /*content: " ";
+    content: " ";
     width: 0; height: 0;
     border-bottom: 36px solid white;
     border-left: 63px solid transparent;
@@ -957,7 +964,7 @@ header#header .mobileMenu ul li a {
 	left: 0;
 	width: 166px;
 	height: 166px;
-	background: url(../img/item_shadow.png);
+	
 }*/
 #main .workFlow ul li .iconContainer .icon {
 	position: relative;
