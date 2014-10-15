@@ -962,16 +962,17 @@ header#header .mobileMenu ul li a {
 #main .workFlow ul li .iconContainer .icon {
 	position: relative;
 	display: block;
-	width: 76px;
+	width: 66px;
 	height: 76px;
-	background: url(../img/workflow_icons.png) no-repeat;
+	/*background: url(../img/workflow_icons.png) no-repeat;*/
 	margin: 0 auto;
-	top:35px;
+	top:40px;
+
 }
-#main .workFlow ul li.collaborate .iconContainer .icon { background-position: 0 0 }
-#main .workFlow ul li.strategize .iconContainer .icon { background-position: 0 -76px }
-#main .workFlow ul li.dev .iconContainer .icon { background-position: 0 -152px }
-#main .workFlow ul li.implement .iconContainer .icon { background-position: 0 -228px }
+#main .workFlow ul li.collaborate .iconContainer .icon { background-position: 0 0; color:#37b0e9 }
+#main .workFlow ul li.strategize .iconContainer .icon { background-position: 0 -76px; color:#eabf4b }
+#main .workFlow ul li.dev .iconContainer .icon { background-position: 0 -152px; color:#e4618b }
+#main .workFlow ul li.implement .iconContainer .icon { background-position: 0 -228px; color:#46cac2 }
 #main .workFlow ul li span.point {
 	position: relative;
 	display: block;
@@ -988,6 +989,7 @@ header#header .mobileMenu ul li a {
 	box-shadow: 0 0 0 7px rgba(31, 61, 90, 0.05);
 	opacity: 0;
 }
+
 #main .workFlow ul li.animate span.point {
 	animation: workFlow-point .6s 1 ease-in forwards;
 	-webkit-animation: workFlow-point .6s 1 ease-in forwards;
@@ -1008,6 +1010,7 @@ header#header .mobileMenu ul li a {
 	border-radius: 6px;
 	z-index: 5;
 }
+
 #main .workFlow ul li span.point.autoCenter { margin: 56px auto 0 auto }
 #main .workFlow ul li.collaborate  span.point::after  { background: #37b0e9 }
 #main .workFlow ul li.strategize  span.point::after  { background: #eabf4b }
