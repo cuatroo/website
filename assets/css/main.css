@@ -966,7 +966,7 @@ header#header .mobileMenu ul li a {
 	height: 76px;
 	background: url(../img/workflow_icons.png) no-repeat;
 	margin: 0 auto;
-	top:30px;
+	top:35px;
 }
 #main .workFlow ul li.collaborate .iconContainer .icon { background-position: 0 0 }
 #main .workFlow ul li.strategize .iconContainer .icon { background-position: 0 -76px }
