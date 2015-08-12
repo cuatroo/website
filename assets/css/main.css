@@ -978,7 +978,7 @@ header#header .mobileMenu ul li a {
 }
 #main .workFlow ul li.collaborate .iconContainer .icon { background-position: 0 0; color:#37b0e9 }
 #main .workFlow ul li.strategize .iconContainer .icon { background-position: 0 -76px; color: #e4618b }
-#main .workFlow ul li.dev .iconContainer .icon {   color:#eabf4b }
+#main .workFlow ul li.dev .iconContainer .icon {   color:#eabf4b; margin-left: 60px; }
 #main .workFlow ul li.implement .iconContainer .icon { background-position: 0 -228px; color:#46cac2 }
 #main .workFlow ul li span.point {
 	position: relative;
