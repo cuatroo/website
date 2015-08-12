@@ -1273,6 +1273,13 @@ header#header .mobileMenu ul li a {
 #main #services .serviceDetails .column:nth-child(3) { margin: 0 }
 #main #services .serviceDetails .column p { font-size: 14px }
 
+
+
+#main #services .serviceDetails .column ul { color:#597086 !important; list-style-type: square;  font-size: 16px;}
+#main #services .serviceDetails .column ul li { color:#597086 !important; list-style-type: square; margin-left: 20px; font-size: 14px;}
+
+
+
 /*-----------------------------------------------------------------*/
 /* Let's Talk
 /*-----------------------------------------------------------------*/
