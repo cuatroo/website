@@ -38,6 +38,6 @@
            addHeader('X-Transport', 'web');
     $response = $sendgrid->send($email);
           
-    echo "Nos pondremos en contacto contigo a la brevedad!" ;
+    echo "success" ;
                 
 ?>
