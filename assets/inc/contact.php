@@ -5,7 +5,7 @@
 
 	$sendgrid_username = "ialtamirano";
     $sendgrid_password ="Password01";
-    $to                = "ivan.altamirano@cuatroo.com";
+    $to                = "hola@cuatroo.com";
     
     
     if(!isset($_POST["name"])){
@@ -32,7 +32,7 @@
     $email->addTo($to)->
            setFrom('sistema@cuatroo.com')->
            setFromName('Web Cuatroo')->
-           setSubject('"Contacto desde Web Cuatroo - !"')->
+           setSubject('"Nuevo mensaje desde la web Cuatroo - !"')->
            setHtml($body)->
            addHeader('X-Sent-Using', 'SendGrid-API')->
            addHeader('X-Transport', 'web');
